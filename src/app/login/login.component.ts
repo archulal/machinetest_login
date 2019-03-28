@@ -9,10 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
     myForm: FormGroup;
-    loading = false;
-    submitted = false;
-    returnUrl: string;
-    error = '';
+  
   constructor(
       private formBuilder: FormBuilder,
       private route: ActivatedRoute,
@@ -32,11 +29,11 @@ export class LoginComponent implements OnInit {
   get f() { return this.myForm.controls; }
 
   myEvent($event){
-    this.submitted = true;
+  
     if (this.myForm.invalid) {
       return;
   }
-  this.loading = true;
+  this.router.navigate(['home']);
     console.log(this.myForm.value);
   }
 }
