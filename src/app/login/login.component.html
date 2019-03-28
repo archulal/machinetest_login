@@ -1,0 +1,19 @@
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-2">
+                <div class="alert alert-info">
+                    Username: test@yopmail.com<br />
+                    Password: test
+                </div>
+                <h2>Login</h2>
+                <form [formGroup]="myForm">
+                    <app-email-child [emaildata]="myForm.controls.emaildata"></app-email-child>
+                    <app-password-child [passworddata]="myForm.controls.passworddata"></app-password-child>
+                    <app-submit-child (myEvent)="myEvent($event)" ></app-submit-child>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
