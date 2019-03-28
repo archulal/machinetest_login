@@ -11,6 +11,7 @@
                     <app-email-child [emaildata]="myForm.controls.emaildata"></app-email-child>
                     <app-password-child [passworddata]="myForm.controls.passworddata"></app-password-child>
                     <app-submit-child (myEvent)="myEvent($event)" ></app-submit-child>
+                    <div *ngIf="error" class="alert alert-danger">{{error}}</div>
                 </form>
 
             </div>
