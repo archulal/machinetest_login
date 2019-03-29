@@ -1,3 +1,51 @@
 #about-section{
+    position: relative;
     min-height: 400px;
+    background-color: #0a30b9; /* For browsers that do not support gradients */
+  background: linear-gradient(to right,#0a30b9, #398df0);
+  color: whitesmoke;
+}
+.about-content{
+    float: left;
+    width: 50%;
+    padding: 80px 0 0 145px;
+}
+img#about-animate {
+    height: 65px;
+}
+.banner-img {
+    width: 50%;
+    float: right;
+    padding: 50px 135px;
+}
+
+.bottom-img {
+    position: absolute;
+    top: 300px;
+}
+#banner-img-bottom{
+    height: 100px;
+    width: 100%;
+}
+#banner-about{
+    height: 210px;
+    width: 420px;
+}
+.animate-img {
+    position: absolute;
+    top: 316px;
+    left: 625px;
+    background: #375ed3;
+    border-radius: 50%;
+}
+.about-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+button#view-product {
+    border: none;
+    background: orange;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
 }

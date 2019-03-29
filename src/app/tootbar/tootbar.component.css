@@ -1,0 +1,20 @@
+#toolbar-section{
+    min-height: 50px;
+    background-color: #0a30b9; /* For browsers that do not support gradients */
+  background: linear-gradient(to right,#0a30b9, #398df0);
+   
+}
+.tool-link{
+    padding: 20px;
+    float: right;
+    
+}
+a.tool-content {
+    color: #ffff;
+    padding-right: 61px;
+    font-weight: 100;
+}
+.tool-logo {
+    display: inline;
+    padding-left: 140px;
+}
