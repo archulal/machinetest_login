@@ -18,3 +18,6 @@ a.tool-content {
     display: inline;
     padding-left: 140px;
 }
+.tool-logo img{
+    padding: 10px;
+}
