@@ -1,5 +1,9 @@
 #toolbar-section{
     min-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: auto;
     background-color: #0a30b9; /* For browsers that do not support gradients */
   background: linear-gradient(to right,#0a30b9, #398df0);
    

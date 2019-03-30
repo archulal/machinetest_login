@@ -1,6 +1,7 @@
 #about-section{
-    position: relative;
-    min-height: 400px;
+    /* position: relative; */
+    min-height: 400px;   
+    top: 69px;
     background-color: #0a30b9; /* For browsers that do not support gradients */
   background: linear-gradient(to right,#0a30b9, #398df0);
   color: whitesmoke;
@@ -20,7 +21,7 @@ img#about-animate {
 }
 
 .bottom-img {
-    position: absolute;
+    /* position: absolute; */
     top: 300px;
 }
 #banner-img-bottom{
